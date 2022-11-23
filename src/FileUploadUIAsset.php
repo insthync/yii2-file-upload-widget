@@ -35,10 +35,10 @@ class FileUploadUIAsset extends AssetBundle
     ];
     public $depends = [
         'yii\web\JqueryAsset',
-        'yii\bootstrap\BootstrapPluginAsset',
+        'yii\bootstrap5\BootstrapPluginAsset',
         'dosamigos\fileupload\BlueimpLoadImageAsset',
         'dosamigos\fileupload\BlueimpCanvasToBlobAsset',
-        'dosamigos\fileupload\BlueimpTmplAsset'
+        'dosamigos\fileupload\BlueimpTmplAsset',
     ];
     public $publishOptions = [
         'except' => [
