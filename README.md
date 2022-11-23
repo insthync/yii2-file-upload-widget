@@ -1,12 +1,5 @@
 # BlueImp File Upload Widget for Yii2
 
-[![Latest Version](https://img.shields.io/github/tag/2amigos/yii2-file-upload-widget.svg?style=flat-square&label=release)](https://github.com/2amigos/yii2-file-upload-widget/tags)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/2amigos/yii2-file-upload-widget/master.svg?style=flat-square)](https://travis-ci.org/2amigos/yii2-file-upload-widget)
-[![Coverage Status](https://img.shields.io/scrutinizer/coverage/g/2amigos/yii2-file-upload-widget.svg?style=flat-square)](https://scrutinizer-ci.com/g/2amigos/yii2-file-upload-widget/code-structure)
-[![Quality Score](https://img.shields.io/scrutinizer/g/2amigos/yii2-file-upload-widget.svg?style=flat-square)](https://scrutinizer-ci.com/g/2amigos/yii2-file-upload-widget)
-[![Total Downloads](https://img.shields.io/packagist/dt/2amigos/yii2-file-upload-widget.svg?style=flat-square)](https://packagist.org/packages/2amigos/yii2-file-upload-widget)
-
 Renders a [BlueImp jQuery File Upload plugin](http://blueimp.github.io/jQuery-File-Upload/). That plugin integrates multiple file selection, drag&drop support, progress bars, validation and preview of images.
 
 ## Installation
@@ -16,13 +9,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```bash
-$ composer require 2amigos/yii2-file-upload-widget:~1.0
+$ composer require insthync/yii2-file-upload-widget:dev-master
 ```
 
 or add
 
 ```
-"2amigos/yii2-file-upload-widget": "~1.0"
+"insthync/yii2-file-upload-widget": "dev-master"
 ```
 
 to the `require` section of your `composer.json` file.
