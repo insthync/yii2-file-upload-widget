@@ -24,10 +24,11 @@
             "role": "Developer"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "yiisoft/yii2": "~2.0.45",
         "yiisoft/yii2-bootstrap5": "~2.0.2",
-        "insthync/yii2-gallery-widget": "dev-master",
+        "insthync/yii2-gallery-widget": "~1.0",
         "bower-asset/blueimp-file-upload": "~10.32"
     },
     "require-dev": {
@@ -39,17 +40,27 @@
             "dosamigos\\fileupload\\": "src"
         }
     },
-    "config": {
-        "fxp-asset": {
-            "installer-paths": {
-                "npm-asset-library": "vendor/npm",
-                "bower-asset-library": "vendor/bower"
-            }
-        }
-    },
     "extra": {
+        "installer-types": ["bower-asset", "npm-asset"],
+        "installer-paths": {
+            "public/assets/{$vendor}/{$name}/": ["type:bower-asset", "type:npm-asset"]
+        },
         "branch-alias": {
             "dev-master": "1.0-dev"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "config": {
+        "fxp-asset": {
+            "enabled": false
+        },
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
         }
     }
 }
