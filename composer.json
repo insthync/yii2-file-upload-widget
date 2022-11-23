@@ -27,7 +27,7 @@
     "require": {
         "yiisoft/yii2": "~2.0.45",
         "yiisoft/yii2-bootstrap5": "~2.0.2",
-        "insthync/yii2-gallery-widget": "^1.0",
+        "insthync/yii2-gallery-widget": "dev-master",
         "bower-asset/blueimp-file-upload": "~10.32"
     },
     "require-dev": {
